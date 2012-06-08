@@ -220,7 +220,7 @@ td { vertical-align: top; }
 /*todo code aqui*/
 body{
     background: #ed3d25;
-    color: #000;
+    color: #fff;
     font-family: Helvetica, Arial;
     font-size: 16px;
     text-shadow: 1px 1px 1px darkred;
@@ -245,6 +245,27 @@ header{
 #content{
     min-height: 600px;
 }
+#content div{
+    display: inline-block;
+    margin-top: 32%;
+    margin-left: 14%;
+}
+/*#content #img3{
+    display: inline-block;
+    margin-top: 40%;
+    margin-left: 2%;
+    height: 15%;
+    padding: 10%;
+    width: 30%;
+}
+#content #img3{
+    display: inline-block;
+    margin-top: 40%;
+    margin-left: 2%;
+    height: 15%;
+    padding: 10%;
+    width: 30%;
+}*/
 .b{
     border: solid thin gray;
 }
