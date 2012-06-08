@@ -219,7 +219,7 @@ td { vertical-align: top; }
    ========================================================================== */
 /*todo code aqui*/
 body{
-    background: #111;
+    background: #ed3d25;
     color: #000;
     font-family: Helvetica, Arial;
     font-size: 16px;
@@ -233,11 +233,14 @@ header{
 }
 /*@media screen and (max-width: 1200px)*/
 #container > #bckgrnd {
+/*    background-image: url('../img/background.jpg');*/
     background-image: url('../img/b1.jpg');
+    background-repeat: no-repeat;
 /*    background-size: 80% 80%;*/
     margin: 0 auto;
 /*    min-height: 700px;*/
-/*    width: 1000px;*/
+
+    width: 1362px;
 }
 #content{
     min-height: 600px;
