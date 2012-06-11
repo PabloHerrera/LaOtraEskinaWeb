@@ -245,11 +245,31 @@ header{
 #content{
     min-height: 600px;
 }
-#content div{
+#content > div{
     display: inline-block;
     margin-top: 32%;
     margin-left: 14%;
 }
+
+@-webkit-keyframes girando {
+  from { -webkit-transform: rotateY(0deg);    }
+  to   { -webkit-transform: rotateY(360deg);}
+}
+#content {
+   margin: 30px auto;
+   -webkit-perspective: 600px;
+}
+
+#content > div:hover {
+   -webkit-animation-name: girando;
+   -webkit-animation-timing-function: linear;
+   -webkit-animation-iteration-count: infinite;
+   -webkit-animation-duration: 5s;
+/*   -webkit-transform-style: preserve-3d;*/
+}
+/*#content  image{
+    border-radius: 10px;
+}*/
 /*#content #img3{
     display: inline-block;
     margin-top: 40%;
